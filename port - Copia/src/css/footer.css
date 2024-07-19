@@ -1,0 +1,26 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+}
+
+footer .content_img {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   -webkit-tap-highlight-color: transparent;
+}
+
+footer .content_img img {
+    filter: invert();
+    cursor: pointer;
+    width: 40px;
+    transition: all 0.5s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+footer .content_img img:hover {
+    transform: translateY(-5px);
+}
